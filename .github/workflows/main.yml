@@ -30,7 +30,7 @@ jobs:
         run: echo Hello, world!
 
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@master
+      - uses: actions/checkout@main
         with:
           name: vismadhu/testwebhook     
           ref: refs/heads/release
